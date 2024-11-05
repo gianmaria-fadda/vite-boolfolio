@@ -30,15 +30,4 @@ export default {
 </template>
 
 <style scoped>
-header {
-  color: red;
-}
-
-main {
-  color: blue;
-}
-
-footer {
-  color: green;
-}
 </style>

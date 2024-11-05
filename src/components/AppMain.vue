@@ -4,7 +4,7 @@ import axios from 'axios';
 export default {
   data() {
     return {
-      post: []
+      projects: []
     };
   },
   mounted() {
@@ -43,5 +43,13 @@ export default {
 .project-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-container > * {
+  width: 30%;
+  border: 2px solid red;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 </style>
