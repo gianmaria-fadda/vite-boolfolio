@@ -4,7 +4,7 @@ import axios from 'axios';
 export default {
   data() {
     return {
-
+      post: []
     };
   },
   mounted() {
@@ -15,7 +15,8 @@ export default {
       axios
         .get('http://127.0.0.1:8000/api/projects')
         .then((res) => {
-          console.log(res.data);
+          this.projects = res.data.data.projects.data;
+          console.log(this.projects);
         });
     }
   }
@@ -26,14 +27,21 @@ export default {
 
 <main>
   <div class="container">
-    main
+    <div class="project-container">
+      <div v-for="project in projects" :key="project.id">
+        <h3>
+           {{ project.title }}
+        </h3>
+      </div>
+    </div>
   </div>
 </main>
 
 </template>
 
 <style scoped>
-main {
-  color: blue;
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 </style>
