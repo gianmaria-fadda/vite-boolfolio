@@ -30,6 +30,11 @@ export default {
           About
         </router-link>
       </li>
+      <li>
+        <router-link :to="{ name: 'projects-index' }" class="nav-link">
+          Progect
+        </router-link>
+      </li>
     </ul>
   </div>
 </header>

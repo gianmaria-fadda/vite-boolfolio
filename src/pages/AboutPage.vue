@@ -2,7 +2,7 @@
 export default {
   data() {
     return {
-      text: 'Sono Giacco'
+      text: 'Sono Giacco e adesso vi parleto un pò di me: Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, ut quod! Quisquam dolorum doloribus voluptatem qui, quidem, nesciunt facere eveniet nam sequi, laudantium dicta aperiam assumenda excepturi quae asperiores molestiae odio fugit facilis alias rem? Sunt ex, fuga, repellat libero praesentium corrupti qui voluptas veniam, et placeat vitae. Rem, asperiores.'
     };
   },
   methods: {
