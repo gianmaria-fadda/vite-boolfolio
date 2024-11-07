@@ -18,6 +18,14 @@ export default {
     <h1>
       Laravel Boolfolio - API
     </h1>
+
+    <ul>
+      <li>
+        <router-link :to="{ name: 'home' }" class="nav-link">
+          Home
+        </router-link>
+      </li>
+    </ul>
   </div>
 </header>
 

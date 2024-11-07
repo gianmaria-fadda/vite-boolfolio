@@ -22,4 +22,12 @@ export default {
 </template>
 
 <style scoped>
+.container {
+  text-align: center;
+  border: 5px solid purple;
+  border-radius: 100px;
+  padding: 10px 0;
+  margin-bottom: 30px;
+  background-color: blueviolet;
+}
 </style>
