@@ -49,6 +49,6 @@ ul {
 }
 
 ul li {
-
+  margin: 0 3px;
 }
 </style>
