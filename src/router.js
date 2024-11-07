@@ -13,14 +13,14 @@ const router = createRouter({
             component: AppHome
         },
         //{
-        //    path: '/',
-        //    name: 'home',
-        //    component: ProjectList
+        //    path: '/chi siamo',
+        //    name: 'chi siamo',
+        //    component: HowIAm
         //},
         //{
         //    path: '/',
-        //    name: 'chi siamo',
-        //    component: HowIAm
+        //    name: 'home',
+        //    component: ProjectList
         //}
     ]
 });
